@@ -1,10 +1,10 @@
 const {Router } = require('express')
 const router = Router()
-const {addAdmin,adminLogin} = require('./admin.controller')
+const {adminRegister,adminLogin} = require('./admin.controller')
 
 
-router.route('/')
-      .post(addAdmin)
+router.route('/register')
+      .post(adminRegister)
 
 
 
