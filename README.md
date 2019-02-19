@@ -1,7 +1,6 @@
 # Hashing password in node js app
 
-This project shows how to hasg password before saving them in your database.
-
+This demo shows how to hash password before saving them in your database.
 
 
 ## Running project
@@ -24,7 +23,7 @@ You need to have [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb
 |   |-- admin.controller.js
 |   |-- admin.model.js
 |   |-- admin.route.js
-|   `-- routers
+|  
 |
 |-- config
 |   |-- dev.js //database url
@@ -34,6 +33,8 @@ You need to have [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb
 |
 `-- index.js
 </pre> 
+# demo run
+* Run ```npm node``` on projct root directory.
 
 # API Endpoints
 
