@@ -13,7 +13,7 @@ const addAdmin = (req, res) => {
     })
 }
 const adminLogin = async (req, res) => {
-        const password = req.body.password
+    const password = req.body.password
     try {
         const admin = await adminModel.findOne({username:req.body.username});
         const isValid =  admin.checkPassword(password,admin.password)
@@ -21,14 +21,17 @@ const adminLogin = async (req, res) => {
                  if(same) {
                     res.send('matched')
                  }
-                 res.send('wrong password')
+                 else {
+                    res.send('wrong password')
+                 }
+                
              }).catch(err=>{
                  console.log(err)
              })
         
     }
     catch(err) {
-        res.send(err)
+        console.log(err)
     }
 }
 module.exports = {
