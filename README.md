@@ -43,6 +43,7 @@ This demo shows how to hash password before saving them in your database.
 
 
 ```
+GET http://localhost:3000/ //welcome message
 GET http://localhost:3000/admin/register //add admin 
 GET http://localhost:3000/admin/login // admin login 
 
