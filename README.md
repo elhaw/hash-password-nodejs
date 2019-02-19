@@ -7,8 +7,8 @@ This demo shows how to hash password before saving them in your database.
 
 ## Manual
 
-You need to have [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb.com) installed.
-You neeed to install [Postman](https://insomnia.rest) or [insomania](https://www.getpostman.com) to test  API end points
+* You need to have [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb.com) installed.
+* You neeed to install [Postman](https://insomnia.rest) or [insomania](https://www.getpostman.com) to test  API end points.
 
 # Installation
 
@@ -33,7 +33,7 @@ You neeed to install [Postman](https://insomnia.rest) or [insomania](https://www
 |
 `-- index.js
 </pre> 
-# demo run
+# Demo run
 * Run ```npm node``` on projct root directory.
 
 # API Endpoints
