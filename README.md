@@ -10,7 +10,7 @@ This demo shows how to hash password before saving them in your database.
 * You need to have [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb.com) installed.
 * You neeed to install [Postman](https://insomnia.rest) or [insomania](https://www.getpostman.com) to test  API end points.
 
-# Installation
+## Installation
 
 * Clone the repo by using ```git clone```.
 * Run ```npm install``` on the cloned directory.
