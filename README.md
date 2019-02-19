@@ -18,11 +18,12 @@ This demo shows how to hash password before saving them in your database.
 ### Structure
 
 <pre> 
-/resources/
-|-- admin
-|   |-- admin.controller.js
-|   |-- admin.model.js
-|   |-- admin.route.js
+//
+|-- resources 
+|       |--admin
+|          |-- admin.controller.js
+|          |-- admin.model.js
+|          |-- admin.route.js
 |  
 |
 |-- config
