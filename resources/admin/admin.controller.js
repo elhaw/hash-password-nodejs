@@ -7,7 +7,7 @@ const adminRegister = (req, res) => {
 
     newAdmin.save((err, admin) => {
         if (err) {
-            console.log(err)
+            console.log(`${err}`)
         }
         res.json(admin)
     })
